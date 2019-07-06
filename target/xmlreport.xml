@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="114.401061">
+<testcase classname="login into TestMeApp" name="login with valid credentials" time="23.421671">
+<system-out><![CDATA[Given click on signin.......................................................passed
+When user enters uname "lalitha "...........................................passed
+When user enters password "password123 "....................................passed
+And click on login..........................................................passed
+Then verify successful login................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check cart" name="User moves to cart without adding any item to it" time="41.491259">
+<system-out><![CDATA[Given Alex has registered into TestMeApp....................................passed
+When alex search for particular item like headphone.........................passed
+And try to proceed to payment without adding any item to cart...............passed
+Then TestMeApp does not display cart icon...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="register to TestMe app" name="register with valid details" time="20.497058">
+<system-out><![CDATA[Given opens TestMeApp.......................................................passed
+When the user clicks on signup page.........................................passed
+When user enters username as "ffrrizzwana"..................................passed
+When user enters firstname as "fathima".....................................passed
+When user enters lastname as "rizwana"......................................passed
+When user enters password as "frizwana".....................................passed
+When user enters confirm password as "frizwana".............................passed
+When user clicks on gender as female........................................passed
+When user enters email as "frizwana@gmail.com"..............................passed
+When user enters mobile number as "7654321890"..............................passed
+When user enters DOB as "11/02/1998"........................................passed
+When user enters address as "chennai".......................................passed
+When user selects security  question........................................passed
+When user enters Answer as "chennai"........................................passed
+And user clicks on register button..........................................passed
+Then verify registration success............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="search engine" name="search for an item" time="28.991073">
+<system-out><![CDATA[Given user enters un and pwd................................................passed
+When user enters the name of item "head"....................................passed
+When user clicks on find details............................................passed
+Then verify search engine...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
